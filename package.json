@@ -1,12 +1,12 @@
 {
-  "name": "express-babel",
+  "name": "express-babel-boilerplate",
   "version": "1.0.0",
-  "description": "Using latest JavaScript features on the server",
+  "description": "Use the latest JavaScript features with Node, Today",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vmasto/express-babel.git"
+    "url": "git+https://github.com/TheHashHub/node-express-boilerplate"
   },
-  "author": "Vassilis Mastorostergios <vmasto@gmail.com>",
+  "author": "Ebuka Hills <flyg101@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
   "engines": {
@@ -69,10 +69,7 @@
     ]
   },
   "eslintConfig": {
-    "plugins": [
-      "import",
-      "jest"
-    ],
+    "plugins": ["import", "jest"],
     "parserOptions": {
       "ecmaVersion": 2017,
       "sourceType": "module"
@@ -81,9 +78,7 @@
       "node": true,
       "jest": true
     },
-    "extends": [
-      "eslint:recommended"
-    ],
+    "extends": ["eslint:recommended"],
     "rules": {
       "jest/no-focused-tests": 2,
       "jest/no-identical-title": 2
@@ -93,9 +88,9 @@
     "testEnvironment": "node"
   },
   "bugs": {
-    "url": "https://github.com/vmasto/express-babel/issues"
+    "url": "https://github.com/TheHashHub/node-express-boilerplate/issues"
   },
-  "homepage": "https://github.com/vmasto/express-babel#readme",
+  "homepage": "https://github.com/TheHashHub/node-express-boilerplate/#readme",
   "directories": {
     "test": "test"
   }

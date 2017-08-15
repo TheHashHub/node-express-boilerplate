@@ -1,12 +1,11 @@
 import { Router } from 'express'
+import { HomeController } from '../controllers'
 
 const router = Router()
 
 /**
  * GET home page
  */
-router.get('/', (req, res) => {
-  res.render('index', { title: 'Express Babel' })
-})
+router.get('/', HomeController)
 
 export default router
