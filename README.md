@@ -64,7 +64,7 @@ Deployment is specific to hosting platform/provider but generally:
 npm run build
 ```
 
-will compile your src into `/dist`, and 
+will compile your server into `/dist`, and 
 
 ```sh
 npm start
