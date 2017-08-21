@@ -69,7 +69,10 @@
     ]
   },
   "eslintConfig": {
-    "plugins": ["import", "jest"],
+    "plugins": [
+      "import",
+      "jest"
+    ],
     "parserOptions": {
       "ecmaVersion": 2017,
       "sourceType": "module"
@@ -78,7 +81,9 @@
       "node": true,
       "jest": true
     },
-    "extends": ["eslint:recommended"],
+    "extends": [
+      "eslint:recommended"
+    ],
     "rules": {
       "jest/no-focused-tests": 2,
       "jest/no-identical-title": 2
