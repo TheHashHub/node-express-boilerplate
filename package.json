@@ -16,7 +16,7 @@
   "scripts": {
     "prestart": "npm run -s build",
     "start": "node dist/index.js",
-    "dev": "nodemon server/index.js --exec \"node -r dotenv/config -r babel-register\"",
+    "dev": "nodemon server/index.js --exec babel-node",
     "clean": "rimraf dist",
     "build": "npm run clean && mkdir -p dist && babel server -s -D -d dist",
     "test": "jest --watch",
